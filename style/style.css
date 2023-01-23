@@ -1,0 +1,142 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Poppins','sans-serif';
+    background: linear-gradient(to right, blue,pink);
+    font-size: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.profile{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 25px;
+    width: 405px;
+}
+.profile-box{
+    width: 405px;
+    max-width: 700px;
+    position: relative;
+    background-color: rgba(255, 255, 255,.8);
+    padding: 20px 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.5);
+}
+.profile-des div{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    font-weight: bold;
+    font-size: 25px;
+}
+.profile-logo{
+    display: flex;
+    justify-content: center;
+} 
+.profile-logo img{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(202, 33, 165, 0.5);
+}
+.profile-address div{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+.profile-address {
+    display: flex;
+    justify-content: center;
+}
+.profile-info div{
+    display:flex ;
+    flex-direction: column;
+}
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    gap:2.5rem;
+    justify-content: center;
+}
+.profile-info div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.profile-info .first{
+    font-weight: bold;
+    font-size: large;
+}
+.profile-socail {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 1rem;
+}
+.profile-socail a{
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scale: 1.1;
+    border: 2px solid green;
+}
+.profile-socail a:hover{
+    background-color:rgba(255, 255, 255, .7);
+    scale: 1.2;
+}
+.facebook,
+.twitter,
+.instagram,
+.github{
+    color: black;
+}
+.facebook:hover
+{
+    color: #4267b2;
+}
+.twitter:hover{
+    color:rgb(29, 155, 240);
+}
+.instagram:hover{
+    color: #ff0096;
+}
+.profile-box .buttonboth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:3rem;
+
+}
+button{
+    padding: 10px 15px;
+    border: 2px solid pink;
+    border-radius: 20px;
+}
+button:hover{
+    box-shadow: 0 5px 15px rgba(202, 33, 165, 0.5);
+}
+.buttonboth .left{
+    background-color: #fa59b7;
+}
+.buttonboth .right{
+    background-color: #fad259;
+}
